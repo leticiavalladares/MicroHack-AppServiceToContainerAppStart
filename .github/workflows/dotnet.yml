@@ -64,3 +64,5 @@ jobs:
         containerAppEnvironment: mycontainerappenvironment
         containerAppName: mycontainerapp
         targetPort: 8080
+        environmentVariables: |
+                  API_URL=https://mycontainer-aiapp.blackfield-cf218aab.westeurope.azurecontainerapps.io
